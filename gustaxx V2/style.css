@@ -1,0 +1,39 @@
+header {
+    background-color: aqua;
+   padding: 30px 0;
+
+}
+
+body {
+   background-color: grey;
+}
+li {
+   margin: 10px 0;
+   padding: 10px 0;
+   background-color: aquamarine;
+   width: 30%;
+   text-align: center;
+   text-transform: uppercase;
+   color: black;
+   font-weight: bold;
+}
+a {
+   text-decoration: none;
+
+}
+main {
+    padding: 20px 0;
+    text-align: center;
+}
+h1,h2 {
+   text-align: center;
+   text-decoration: none;
+
+}
+ul{
+   margin: 10px 0;
+}
+footer p{
+   text-align: center;
+   text-decoration: none;
+}
