@@ -1,0 +1,49 @@
+
+body {
+   background-color: grey;}
+
+   header {
+    background-color: aqua;
+   padding: 30px 0;
+      text-align: center;
+}
+li {
+   margin: 10px 0;
+   padding: 10px 0;
+   background-color: aquamarine;
+   width: 30%;
+   text-align: center;
+   text-transform: uppercase;
+   color: black;
+   font-weight: bold;
+}
+
+li:hover {
+   width: 32%;
+   border-radius: 10px;
+   background-color: black;
+}
+a {
+   text-decoration: none;
+
+}
+main {
+    padding: 20px 0;
+    text-align: center;
+    
+}
+h1,h2 {
+   text-align: center;
+   text-decoration: none;
+   margin: 10px 0;
+
+}
+ul{
+   margin: 30px 0;
+}
+
+
+footer {
+   text-align: center;
+   text-decoration: none;
+}
