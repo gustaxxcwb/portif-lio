@@ -24,6 +24,7 @@ function calculo(){
         //caso seja de menor, mostra essa frase
         alert("Você não pode tirar carteira de motorista, pois faltam: " + dif + " Anos para completar 18 anos");
      }
-    
-    
+
+     
+
 }
