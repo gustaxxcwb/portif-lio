@@ -13,9 +13,9 @@ function media() {
 
     console.log(resultado);
 
-    
 
-    if(media >= 6){
+
+    if(media >= 60){
 
         resultado.innerHTML = `<p>Você passou na média: ${media}</p>`;
 
@@ -25,9 +25,9 @@ function media() {
 
      else {
 
-        let dif = 6 - media;
+        let dif = 60 - media;
 
-        console.log(media = 6);
+        console.log(media = 60);
 
          resultado.innerHTML = `<p>Você não atingiu a média. Faltam: ${dif} pontos</p>`;
 
