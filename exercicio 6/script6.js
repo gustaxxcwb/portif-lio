@@ -1,30 +1,17 @@
-(function() {
-    const registerBtn = document.getElementById('registerBtn');
-    const interestedCountElem = document.getElementById('interestedCount');
-    const teamsCountElem = document.getElementById('teamsCount');
-    const alertMessage = document.getElementById('alertMessage');
+let mostraResultado = document.querySelector("#resultado")
+let inscritos = 0;
+let times = 0;
 
-    let interestedCount = 0;
+function inscrever() {
+    inscritos++;
+  times = parseInt(inscritos / 3);
 
-    function updateDisplay() {
-      interestedCountElem.textContent = interestedCount;
-      const teams = Math.floor(interestedCount / 3);
-      teamsCountElem.textContent = teams;
+    mostraResultado.innerHTML = `<p>Número de inscritos: ${inscritos}</p><p>Numero de times: ${times}</p>`
+  
 
-      if (teams >= 4) {
-        alertMessage.classList.add('visible');
-      } else {
-        alertMessage.classList.remove('visible');
-      }
-    }
+  if (times >= 4) {
+alert ("É possivel iniciar o campeonato, pois temos 4 equipes!")
 
-    registerBtn.addEventListener('click', () => {
-      interestedCount++;
-      updateDisplay();
-    });
+  }
 
-    // Initialize display
-    updateDisplay();
-  } ) ();
-
-
+}
