@@ -9,16 +9,16 @@ function verificarEstacao() {
 
     if (mes == "DEZEMBRO" || mes == "JANEIRO" || mes == "FEVEREIRO") {
         estacao = "Verão";
-        document.body.style.backgroundColor = "#FFD700"; 
+        document.body.style.backgroundColor = "#FFD800"; 
     } else if (mes == "MARÇO" || mes == "ABRIL" || mes == "MAIO") {
         estacao = "Outono";
-        document.body.style.backgroundColor = "#FF8C00"; 
+        document.body.style.backgroundColor = "#FF4500"; 
     } else if (mes == "JUNHO" || mes == "JULHO" || mes == "AGOSTO") {
         estacao = "Inverno";
-        document.body.style.backgroundColor = "#87CEFA"; 
+        document.body.style.backgroundColor = "#000080"; 
     } else if (mes == "SETEMBRO" || mes == "OUTUBRO" || mes == "NOVEMBRO") {
         estacao = "Primavera";
-        document.body.style.backgroundColor = "#98FB98"; 
+        document.body.style.backgroundColor = "#228B22"; 
     } else {
         alert("Mês inválido. Tente novamente.");
         return;
